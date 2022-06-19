@@ -4149,8 +4149,8 @@ textarea,
 }
 
 .form-check-input:checked~.form-check-label:after {
-    background-color: #6236FF;
-    border-color: #6236FF !important
+    background-color: #2683c6d4 ;
+    border-color: #2683c6d4  !important
 }
 
 .form-check-input:checked~.form-check-label:before {
@@ -7291,7 +7291,8 @@ body.dark-mode .form-switch .form-check-label:before {
 }
 
 body.dark-mode .form-switch .form-check-input:checked~.form-check-label:after {
-    background: #6236FF !important
+     color: #fff;
+    background: #2683c6d4  !important
 }
 
 body.dark-mode .chip {

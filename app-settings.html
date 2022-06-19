@@ -27,13 +27,13 @@
     <!-- * loader -->
 
     <!-- App Header -->
-    <div class="appHeader">
+    <div class="appHeader bg-default">
         <div class="left">
             <a href="#" class="headerButton goBack">
                 <ion-icon name="chevron-back-outline"></ion-icon>
             </a>
         </div>
-        <div class="pageTitle">
+        <div class="pageTitle text-light">
             Settings
         </div>
         <div class="right">
@@ -52,29 +52,36 @@
             <div class="avatar-section">
                 <a href="#">
                     <img src="images/avatar1.jpg" alt="avatar" class="imaged w100 rounded">
-                    <span class="button">
-                        <ion-icon name="camera-outline"></ion-icon>
-                    </span>
+<!--                    <span class="button">-->
+<!--                        <ion-icon name="camera-outline"></ion-icon>-->
+
+<!--                    </span>-->
+
                 </a>
+
             </div>
         </div>
-
-        <div class="listview-title mt-1">Theme</div>
-        <ul class="listview image-listview text inset no-line">
-            <li>
-                <div class="item">
-                    <div class="in">
-                        <div>
-                            Dark Mode
-                        </div>
-                        <div class="form-check form-switch  ms-2">
-                            <input class="form-check-input dark-mode-switch" type="checkbox" id="darkmodeSwitch">
-                            <label class="form-check-label" for="darkmodeSwitch"></label>
-                        </div>
-                    </div>
-                </div>
-            </li>
-        </ul>
+        <div class="section mt-3 text-center">
+            <span>000131 </span>&nbsp;<sup><i class="bi bi-clipboard"></i></sup></br>
+            <span>qq@wechat.me</span></br>
+            <span>855 98 319 402</span>
+        </div>
+<!--        <div class="listview-title mt-1">Theme</div>-->
+<!--        <ul class="listview image-listview text inset no-line d-none">-->
+<!--            <li>-->
+<!--                <div class="item">-->
+<!--                    <div class="in">-->
+<!--                        <div>-->
+<!--                            Dark Mode-->
+<!--                        </div>-->
+<!--                        <div class="form-check form-switch  ms-2">-->
+<!--                            <input class="form-check-input dark-mode-switch" type="checkbox" id="darkmodeSwitch">-->
+<!--                            <label class="form-check-label" for="darkmodeSwitch"></label>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </li>-->
+<!--        </ul>-->
 
         <div class="listview-title mt-1">Notifications</div>
         <ul class="listview image-listview text inset">
@@ -98,10 +105,48 @@
                 <a href="#" class="item">
                     <div class="in">
                         <div>Notification Sound</div>
-                        <span class="text-primary">Beep</span>
+<!--                        <span class="text-primary">Beep</span>-->
                     </div>
                 </a>
             </li>
+        </ul>
+        <div class="listview-title mt-1">Payment</div>
+        <ul class="listview image-listview text inset">
+            <li>
+                <a href="#" class="item">
+                    <div class="in">
+                        <div>Payment Method</div>
+                    </div>
+                </a>
+            </li>
+<!--            <li>-->
+<!--                <a href="#" class="item">-->
+<!--                    <div class="in">-->
+<!--                        <div>Update E-mail</div>-->
+<!--                    </div>-->
+<!--                </a>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--                <a href="#" class="item">-->
+<!--                    <div class="in">-->
+<!--                        <div>Address</div>-->
+
+<!--                    </div>-->
+<!--                </a>-->
+<!--            </li>-->
+            <!--            <li>-->
+            <!--                <div class="item">-->
+            <!--                    <div class="in">-->
+            <!--                        <div>-->
+            <!--                            Private Profile-->
+            <!--                        </div>-->
+            <!--                        <div class="form-check form-switch ms-2">-->
+            <!--                            <input class="form-check-input" type="checkbox" id="SwitchCheckDefault2">-->
+            <!--                            <label class="form-check-label" for="SwitchCheckDefault2"></label>-->
+            <!--                        </div>-->
+            <!--                    </div>-->
+            <!--                </div>-->
+            <!--            </li>-->
         </ul>
 
         <div class="listview-title mt-1">Profile Settings</div>
@@ -109,38 +154,68 @@
             <li>
                 <a href="#" class="item">
                     <div class="in">
-                        <div>Change Username</div>
+                        <div>
+                            <div class="text-muted">
+                                 Name
+                            </div>
+                            <div> Mr.developer</div>
+                        </div>
+
                     </div>
                 </a>
             </li>
             <li>
                 <a href="#" class="item">
-                    <div class="in">
-                        <div>Update E-mail</div>
-                    </div>
-                </a>
-            </li>
-            <li>
-                <a href="#" class="item">
-                    <div class="in">
-                        <div>Address</div>
-                        <span class="text-primary">Edit</span>
-                    </div>
-                </a>
-            </li>
-            <li>
-                <div class="item">
                     <div class="in">
                         <div>
-                            Private Profile
+                            <div class="text-muted">
+                                 E-mail
+                            </div>
+                            <div>qq@wechat.me</div>
                         </div>
-                        <div class="form-check form-switch ms-2">
-                            <input class="form-check-input" type="checkbox" id="SwitchCheckDefault2">
-                            <label class="form-check-label" for="SwitchCheckDefault2"></label>
+
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="item">
+                    <div class="in">
+                        <div>
+                            <div class="text-muted">
+                                Phone
+                            </div>
+                            <div>85598319402 </div>
+
                         </div>
                     </div>
-                </div>
+                </a>
             </li>
+            <li>
+                <a href="#" class="item">
+                    <div class="in">
+                        <div>
+                            <div class="text-muted">
+                                Address
+                            </div>
+                            <div> Phnom Penh, Cambodia </div>
+
+                        </div>
+                    </div>
+                </a>
+            </li>
+<!--            <li>-->
+<!--                <div class="item">-->
+<!--                    <div class="in">-->
+<!--                        <div>-->
+<!--                            Private Profile-->
+<!--                        </div>-->
+<!--                        <div class="form-check form-switch ms-2">-->
+<!--                            <input class="form-check-input" type="checkbox" id="SwitchCheckDefault2">-->
+<!--                            <label class="form-check-label" for="SwitchCheckDefault2"></label>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </li>-->
         </ul>
 
         <div class="listview-title mt-1">Security</div>

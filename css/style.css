@@ -312,13 +312,13 @@ a:focus {
 }
 
 .appBottomMenu .item.active:before {
-    background: #6236FF
+    background: #2683c6
 }
 
 .appBottomMenu .item.active .icon,
 .appBottomMenu .item.active ion-icon,
 .appBottomMenu .item.active strong {
-    color: #6236FF !important;
+    color: #2683c6 !important;
     font-weight: 500
 }
 
@@ -7829,4 +7829,9 @@ body.dark-mode.rtl-mode .notification-dialog.android-style .notification-footer 
 
 body.dark-mode .cookies-box {
     background: #20183b
+}
+
+.text-default  {
+    color: #2683c6
+
 }
